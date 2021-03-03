@@ -15,6 +15,7 @@ import { EmailRounded, GitHub, LinkedIn } from '@material-ui/icons';
 import contactImage from '../images/contact.jpg';
 
 function Alert(props) {
+  // eslint-disable-next-line react/jsx-props-no-spreading
   return <MuiAlert elevation={6} variant="outlined" {...props} />;
 }
 

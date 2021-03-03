@@ -12,7 +12,6 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
-
 import nightinImage from '../images/nightIn.png';
 import issUseImage from '../images/issUse.png';
 import ironDojoImage from '../images/ironDojo.png';
@@ -108,7 +107,7 @@ export default function PortfolioCard() {
                           issUse
                         </Typography>
                         <Typography gutterBottom variant="h5" component="h2">
-                          Issues"?! No Issues with issUse©
+                          Issues?! No Issues with issUse©
                         </Typography>
                       </CardContent>
                     </CardActionArea>
