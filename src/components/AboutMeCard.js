@@ -24,38 +24,38 @@ export default function AboutMeCard() {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Ryan Mendez"
-          height="320"
-          image={MeImage}
-          title="Ryan Mendez"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Ryan Mendez
-          </Typography>
-          <Typography
-            gutterBottom
-            variant="body1"
-            color="textSecondary"
-            component="h1"
-          >
-            Full Stack Web Developer currently working with the MERN stack. I
-            love developing immersive user-friendly applications.
-          </Typography>
-          <Typography
-            gutterBottom
-            variant="body1"
-            color="textPrimary"
-            align="center"
-            component="h2"
-          >
-            Javascript | React | Redux | Node.js | Express | MongoDB | MySQL
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+
+      <CardMedia
+        component="img"
+        alt="Ryan Mendez"
+        height="320"
+        image={MeImage}
+        title="Ryan Mendez"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="h2">
+          Ryan Mendez
+        </Typography>
+        <Typography
+          gutterBottom
+          variant="body1"
+          color="textSecondary"
+          component="h1"
+        >
+          Full Stack Web Developer currently working with the MERN stack. I
+          love developing immersive user-friendly applications.
+        </Typography>
+        <Typography
+          gutterBottom
+          variant="body1"
+          color="textPrimary"
+          align="center"
+          component="h2"
+        >
+          Javascript | React | Redux | Node.js | Express | MongoDB | MySQL
+        </Typography>
+      </CardContent>
+
       <IconButton
         component={LinkedInIcon}
         align="left"
