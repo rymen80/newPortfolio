@@ -20,7 +20,7 @@ import BgImage from '../images/keyboard.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 4,
   },
   paper: {
     padding: theme.spacing(2),
