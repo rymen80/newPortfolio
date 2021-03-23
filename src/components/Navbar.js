@@ -42,7 +42,7 @@ export default function ButtonAppBar() {
             <Button
               to="/Contact"
               onClick={() => window.open(
-                'https://docs.google.com/document/d/161_RTzbJ5inNliLczFuJ6ZqMmCUpiR030Yrt32Gw83c/edit?usp=sharing',
+                'https://www.canva.com/design/DAEZIpNbA1U/3fu4uuWGH4AVe1dLV_U4Hw/view?utm_content=DAEZIpNbA1U&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
                 '_blank',
               )}
               color="inherit"
